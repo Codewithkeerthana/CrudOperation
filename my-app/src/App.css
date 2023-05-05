@@ -1,0 +1,124 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+  }
+  
+  .grid-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(238, 93, 93, 0.2);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 20px;
+  }
+  
+  .user-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50%;
+    padding: 20px;
+    
+  }
+  
+  .user {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .user p {
+    margin: 5px;
+  }
+  
+  .user button {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .user button:hover {
+    background-color: #ff5555;
+  }
+  
+  .form-container label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .form-container input[type="text"],
+  .form-container input[type="email"],
+  .form-container input[type="number"],
+  .form-container input[type="radio"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    
+  }
+  
+  .form-container input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  .form-container button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    
+  }
+  
+  .form-container button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  .form-container input:required {
+    box-shadow:none;
+  }
+  
+  .form-container input:invalid {
+    border-color: red;
+    box-shadow: none;
+  }
+  
+  .form-container input:focus {
+    outline:none;
+    box-shadow: 0 0 5px #4CAF50;
+  }
+  
+  .lastname,.email {
+    margin-top: 10px;
+  }
+    
